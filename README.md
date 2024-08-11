@@ -21,3 +21,5 @@ it will give an summary example
 
 i added some sample output
 
+![Alt Text](FlaskAPI_Assignment/Screenshot (668).png)
+![Alt Text](FlaskAPI_Assignment/Screenshot (669).png)
