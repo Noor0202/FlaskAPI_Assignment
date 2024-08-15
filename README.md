@@ -9,23 +9,23 @@ This project contains two versions of a document summarization service built usi
 
 ## Project Structure
 
-document_summarization_api/
-│
-├── app/
-│ ├── main.py # The main FastAPI app.
-│ ├── models/ # Directory to store summarization logic.
-│ │ ├── summarization.py # Summarization function and model.
-│ ├── routes/ # Directory to store API route logic.
-│ │ ├── summary_routes.py # Routes related to summarization endpoints.
-│ ├── services/ # Services for fetching and validating content.
-│ │ ├── fetch_document.py # Fetches and validates document content.
-│ ├── storage/ # In-memory storage handling for summaries.
-│ │ ├── summary_store.py # Logic for storing summaries in memory.
-│ ├── utils/ # Utility functions such as URL validation.
-│ │ ├── validators.py # URL validation logic.
-│
-├── README.md # Project documentation and instructions.
-├── requirements.txt # Dependencies for the project.
+### document_summarization_api/
+### │
+### ├── app/
+### │ ├── main.py # The main FastAPI app.
+### │ ├── models/ # Directory to store summarization logic.
+### │ │ ├── summarization.py # Summarization function and model.
+### │ ├── routes/ # Directory to store API route logic.
+### │ │ ├── summary_routes.py # Routes related to summarization endpoints.
+### │ ├── services/ # Services for fetching and validating content.
+### │ │ ├── fetch_document.py # Fetches and validates document content.
+### │ ├── storage/ # In-memory storage handling for summaries.
+### │ │ ├── summary_store.py # Logic for storing summaries in memory.
+### │ ├── utils/ # Utility functions such as URL validation.
+### │ │ ├── validators.py # URL validation logic.
+### │
+### ├── README.md # Project documentation and instructions.
+### ├── requirements.txt # Dependencies for the project.
 
 ## Running the API
 
